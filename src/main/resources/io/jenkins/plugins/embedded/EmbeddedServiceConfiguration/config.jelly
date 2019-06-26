@@ -1,0 +1,10 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <?jelly escape-by-default='true'?>
+    <f:section title="${%Embedded Services}">
+        <f:entry title="Embedded Services Providers">
+            <f:repeatableHeteroProperty field="services" hasHeader="true"/>
+        </f:entry>
+    </f:section>
+</j:jelly>
+
